@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2016-05-01T23:47:26" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
+   <XMI.exporterVersion>1.6.1</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSxsPYEXCQ6a" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="xIvk16LV4Sdz" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="TGDj7Ih1icu7" name="boolean"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="A6dNXjvS1oC0" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uXWzx7yONB8U" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="SnW8QOEaUrv1" name="byte"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="aqUZfgaZE4W9" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="9UYWegz4TTCt" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="rQSLFNLpEpNr" name="String"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="class diagram" font="Sans Serif,10,-1,5,50,0,0,0,0,0" canvasheight="329" canvaswidth="940" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="Uy77u1fGIs5y" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="activity" font="Sans Serif,10,-1,5,50,0,0,0,0,0" canvasheight="2426.58028792913" canvaswidth="4232.554112554112" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="59" xmi.id="3Z1U0CMpao9q" documentation="" showscope="1" snapgrid="0" showatts="1" type="6">
+        <widgets>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1498.395348837244" showstereotype="1" y="-745.8139534883853" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="15" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="" xmi.id="BUdNH0CktbQq" postcondition="" documentation="" activitytype="0" height="15" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-304" showstereotype="1" y="-193" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="50" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname=":wq" xmi.id="UDwpaVpb4q33" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1571" usesdiagramusefillcolor="0" y="-675" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="3xTuWrl04fpc" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1661.395348837244" showstereotype="1" y="-613.8139534883853" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="72" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="游客浏览" xmi.id="AcDDREERe40r" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1444.395348837244" showstereotype="1" y="-614.8139534883853" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="50" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="注册" xmi.id="4RCXUxGXsjPM" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1436.395348837244" showstereotype="1" y="-522.8139534883853" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="50" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="登录" xmi.id="YAMco9EwkP9B" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1470.395348837244" usesdiagramusefillcolor="0" y="-453.8139534883853" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="dNaHSb7W0H1U" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1615" showstereotype="1" y="-429" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户浏览" xmi.id="EFz4wPQUXk6L" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1720" showstereotype="1" y="-419" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户浏览" xmi.id="iaJFLNZDgpnL" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1443" showstereotype="1" y="-339" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户发动态" xmi.id="EYexrB8kondh" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1170" showstereotype="1" y="-338" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户发文章" xmi.id="SypKHzAzZRFs" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1304" showstereotype="1" y="-420" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户点赞" xmi.id="pm5VbsonOTlE" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1311" showstereotype="1" y="-338" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户被点赞" xmi.id="cryQfZ85VvPn" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1434" showstereotype="1" y="-419" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户转发" xmi.id="uXkRzxKmjPHI" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1038" showstereotype="1" y="-339" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户被转发" xmi.id="G56cWpq8goXL" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1576" showstereotype="1" y="-419" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户收藏" xmi.id="LdOpYlaQHKrG" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1579" showstereotype="1" y="-338" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户被收藏" xmi.id="GB2zZHIpKMPr" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1722" showstereotype="1" y="-339" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户被评论" xmi.id="BGxr2UBO5XBd" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-897" showstereotype="1" y="-339" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户签到" xmi.id="Jl3a5voL6oJd" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1167" showstereotype="1" y="-418" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="124" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户购买会员" xmi.id="3ZQNvqC468t6" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1362" showstereotype="1" y="-208" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="137" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户积累成长值" xmi.id="a2UgadHrOLPU" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1336" showstereotype="1" y="-134" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户升级" xmi.id="EBnIx4w0dMLW" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1020" showstereotype="1" y="-418" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="150" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="初级用户修改个人资料" xmi.id="AWYGeSNESps2" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1341" usesdiagramusefillcolor="0" y="-254" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="TArrVGJhP5zM" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <forkjoin width="100" showstereotype="1" x="-1651" usesdiagramusefillcolor="0" y="-326" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="9tKlEgHOAofo" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <forkjoin width="100" showstereotype="1" x="-1300" usesdiagramusefillcolor="0" y="-250" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="E00gntjG1Y6U" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1690" showstereotype="1" y="-37" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户浏览" xmi.id="Jfo8AmiyeviT" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1425" showstereotype="1" y="43" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户发动态" xmi.id="K0vGsE1Gjgt2" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1152" showstereotype="1" y="44" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户发文章" xmi.id="KJhKMOTf3HoC" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1283" showstereotype="1" y="-37" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户点赞" xmi.id="1UAgPq7hr3xh" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1293" showstereotype="1" y="44" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户被点赞" xmi.id="Hyx0dq1x7iHU" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1420" showstereotype="1" y="-34" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户转发" xmi.id="5i960vI1PTfm" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1020" showstereotype="1" y="43" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户被转发" xmi.id="HnT8oQn5Nk30" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1558" showstereotype="1" y="-36" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户收藏" xmi.id="Z4xelD6ovEut" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1561" showstereotype="1" y="44" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户被收藏" xmi.id="9DtXeYJvJl27" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1704" showstereotype="1" y="43" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户被评论" xmi.id="9pAWYEU5GQjz" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-879" showstereotype="1" y="43" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户签到" xmi.id="bqnW4iOBtHiV" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1149" showstereotype="1" y="-35" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="124" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户购买会员" xmi.id="n0Q7jQCsENNm" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1344" showstereotype="1" y="174" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="137" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户积累成长值" xmi.id="bprpFapqOcLQ" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1318" showstereotype="1" y="248" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户升级" xmi.id="Ihc9yIejG3qz" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1002" showstereotype="1" y="-35" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="150" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="中级用户修改个人资料" xmi.id="R1qfOBRx0GmE" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1323.551724137943" usesdiagramusefillcolor="0" y="128.6896551724139" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="pZ4DANeQ4EY0" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <forkjoin width="100" showstereotype="1" x="-1338" usesdiagramusefillcolor="0" y="-75" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="UCklDYidZWIv" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1730" showstereotype="1" y="445" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户被转发" xmi.id="uiRChk3fbJyD" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-998" showstereotype="1" y="437" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户签到" xmi.id="FzkmVoiEvNzw" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1275" showstereotype="1" y="373" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="150" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户修改个人资料" xmi.id="UY8GGmVASuM9" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1573" showstereotype="1" y="442" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户发文章" xmi.id="eQoEhkRwk9gF" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1073" showstereotype="1" y="374" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="124" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户购买会员" xmi.id="xOStmPpEyvUE" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1319" usesdiagramusefillcolor="0" y="315" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="pAkZJQmFpC8b" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-907" showstereotype="1" y="374" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户浏览" xmi.id="cvnapFmWF9e8" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1144" showstereotype="1" y="433" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户发动态" xmi.id="tud0zMpoWXLn" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1569" showstereotype="1" y="372" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户点赞" xmi.id="y52nI8Ms47Qr" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-864" showstereotype="1" y="441" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户被点赞" xmi.id="MCNaMzgDuJDr" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1416" showstereotype="1" y="370" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户转发" xmi.id="f0d9YwwU1zFH" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1713" showstereotype="1" y="373" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户收藏" xmi.id="7b99iZ04kMe6" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1288" showstereotype="1" y="439" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户被收藏" xmi.id="LIJDbU2EVdN1" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1421" showstereotype="1" y="441" font="Sans Serif,10,-1,5,50,0,0,0,0,0" width="111" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="高级用户被评论" xmi.id="ZITbHiqMJ0Wz" postcondition="" documentation="" activitytype="1" height="28" precondition=""/>
+         <forkjoin width="100" showstereotype="1" x="-1322.454545454542" usesdiagramusefillcolor="0" y="524.9090909090907" drawvertical="0" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="10" linecolor="#000000" xmi.id="9Mkcz6bZO48d" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="3xTuWrl04fpc" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="21" totalcounta="2" totalcountb="2" widgetaid="BUdNH0CktbQq" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="235" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1483" starty="-730"/>
+           <endpoint endx="-1483" endy="-675"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="2" usesdiagramfillcolor="64" widgetbid="AcDDREERe40r" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="3" totalcountb="2" widgetaid="3xTuWrl04fpc" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1571" starty="-665"/>
+           <endpoint endx="-1589" endy="-613"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="4RCXUxGXsjPM" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="3" totalcountb="2" widgetaid="3xTuWrl04fpc" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1471" starty="-665"/>
+           <endpoint endx="-1444" endy="-614"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="YAMco9EwkP9B" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="4RCXUxGXsjPM" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1404" starty="-586"/>
+           <endpoint endx="-1404" endy="-522"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="dNaHSb7W0H1U" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="YAMco9EwkP9B" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1396" starty="-494"/>
+           <endpoint endx="-1396" endy="-453"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="8" usesdiagramfillcolor="64" widgetbid="iaJFLNZDgpnL" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="195" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="122" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1470" starty="-443"/>
+           <endpoint endx="-1622" endy="-419"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="6" usesdiagramfillcolor="64" widgetbid="LdOpYlaQHKrG" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1470" starty="-443"/>
+           <endpoint endx="-1478" endy="-419"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="4" usesdiagramfillcolor="0" widgetbid="uXkRzxKmjPHI" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1434" starty="-443"/>
+           <endpoint endx="-1434" endy="-419"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="2" usesdiagramfillcolor="64" widgetbid="pm5VbsonOTlE" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1304" endy="-420"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="3ZQNvqC468t6" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1167" endy="-418"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="AWYGeSNESps2" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="184" totalcounta="2" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="102" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1020" endy="-418"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="11" usesdiagramfillcolor="63" widgetbid="BGxr2UBO5XBd" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1470" starty="-443"/>
+           <endpoint endx="-1611" endy="-339"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="10" usesdiagramfillcolor="0" widgetbid="GB2zZHIpKMPr" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1470" starty="-443"/>
+           <endpoint endx="-1470" endy="-338"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="9" usesdiagramfillcolor="64" widgetbid="EYexrB8kondh" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="143" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="81" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1443" starty="-443"/>
+           <endpoint endx="-1443" endy="-339"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="7" usesdiagramfillcolor="0" widgetbid="cryQfZ85VvPn" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="88" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1311" endy="-338"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="5" usesdiagramfillcolor="0" widgetbid="SypKHzAzZRFs" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="106" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1170" endy="-338"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="3" usesdiagramfillcolor="64" widgetbid="G56cWpq8goXL" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="133" totalcounta="13" totalcountb="2" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="102" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-1038" endy="-339"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="12" usesdiagramfillcolor="0" widgetbid="Jl3a5voL6oJd" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="13" totalcountb="3" widgetaid="dNaHSb7W0H1U" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="255" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1370" starty="-443"/>
+           <endpoint endx="-897" endy="-339"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="TArrVGJhP5zM" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="224" totalcounta="2" totalcountb="2" widgetaid="BGxr2UBO5XBd" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1611" starty="-311"/>
+           <endpoint endx="-1341" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="TArrVGJhP5zM" indexb="2" linewidth="none" textcolor="none" usesdiagramusefillcolor="133" totalcounta="2" totalcountb="3" widgetaid="GB2zZHIpKMPr" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="163" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1468" starty="-310"/>
+           <endpoint endx="-1341" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="255" widgetbid="TArrVGJhP5zM" indexb="3" linewidth="none" textcolor="none" usesdiagramusefillcolor="237" totalcounta="2" totalcountb="4" widgetaid="EYexrB8kondh" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="237" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1341" starty="-311"/>
+           <endpoint endx="-1341" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="255" widgetbid="TArrVGJhP5zM" indexb="4" linewidth="none" textcolor="none" usesdiagramusefillcolor="255" totalcounta="2" totalcountb="5" widgetaid="cryQfZ85VvPn" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="255" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1311" starty="-310"/>
+           <endpoint endx="-1311" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="TArrVGJhP5zM" indexb="5" linewidth="none" textcolor="none" usesdiagramusefillcolor="41" totalcounta="2" totalcountb="6" widgetaid="SypKHzAzZRFs" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="215" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1170" starty="-310"/>
+           <endpoint endx="-1241" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="TArrVGJhP5zM" indexb="6" linewidth="none" textcolor="none" usesdiagramusefillcolor="149" totalcounta="2" totalcountb="7" widgetaid="G56cWpq8goXL" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1038" starty="-311"/>
+           <endpoint endx="-1241" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="2" usesdiagramfillcolor="255" widgetbid="TArrVGJhP5zM" indexb="7" linewidth="none" textcolor="none" usesdiagramusefillcolor="254" totalcounta="3" totalcountb="8" widgetaid="Jl3a5voL6oJd" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="254" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-897" starty="-311"/>
+           <endpoint endx="-1241" endy="-254"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="255" widgetbid="a2UgadHrOLPU" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="249" totalcounta="2" totalcountb="2" widgetaid="TArrVGJhP5zM" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="249" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1341" starty="-244"/>
+           <endpoint endx="-1341" endy="-208"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="EBnIx4w0dMLW" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="a2UgadHrOLPU" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1336" starty="-180"/>
+           <endpoint endx="-1336" endy="-134"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="pZ4DANeQ4EY0" indexb="7" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="9pAWYEU5GQjz" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1593" starty="71"/>
+           <endpoint endx="-1323" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="pZ4DANeQ4EY0" indexb="6" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="9DtXeYJvJl27" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1450" starty="72"/>
+           <endpoint endx="-1323" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="pZ4DANeQ4EY0" indexb="5" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="K0vGsE1Gjgt2" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1323" starty="71"/>
+           <endpoint endx="-1323" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="pZ4DANeQ4EY0" indexb="4" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="Hyx0dq1x7iHU" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1279" starty="72"/>
+           <endpoint endx="-1279" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="pZ4DANeQ4EY0" indexb="3" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="KJhKMOTf3HoC" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1152" starty="72"/>
+           <endpoint endx="-1223" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="pZ4DANeQ4EY0" indexb="2" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="HnT8oQn5Nk30" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1020" starty="71"/>
+           <endpoint endx="-1223" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="2" usesdiagramfillcolor="1" widgetbid="pZ4DANeQ4EY0" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="3" totalcountb="8" widgetaid="bqnW4iOBtHiV" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-879" starty="71"/>
+           <endpoint endx="-1223" endy="128"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="bprpFapqOcLQ" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="pZ4DANeQ4EY0" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1279" starty="138"/>
+           <endpoint endx="-1279" endy="174"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="Ihc9yIejG3qz" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="bprpFapqOcLQ" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1276" starty="202"/>
+           <endpoint endx="-1276" endy="248"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="UCklDYidZWIv" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="EBnIx4w0dMLW" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1336" starty="-106"/>
+           <endpoint endx="-1336" endy="-75"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="6" usesdiagramfillcolor="64" widgetbid="Jfo8AmiyeviT" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="167" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="164" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1592" endy="-37"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="5" usesdiagramfillcolor="64" widgetbid="Z4xelD6ovEut" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="167" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="164" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1460" endy="-36"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="4" usesdiagramfillcolor="64" widgetbid="5i960vI1PTfm" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="75" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="215" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1338" endy="-34"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="3" usesdiagramfillcolor="64" widgetbid="1UAgPq7hr3xh" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1281" starty="-65"/>
+           <endpoint endx="-1281" endy="-37"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="2" usesdiagramfillcolor="64" widgetbid="n0Q7jQCsENNm" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1238" starty="-65"/>
+           <endpoint endx="-1149" endy="-35"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="64" widgetbid="R1qfOBRx0GmE" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1238" starty="-65"/>
+           <endpoint endx="-1002" endy="-35"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="64" widgetbid="9pAWYEU5GQjz" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="174" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="51" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1593" endy="43"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="64" widgetbid="9DtXeYJvJl27" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="208" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="184" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1450" endy="44"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="K0vGsE1Gjgt2" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="16" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1338" starty="-65"/>
+           <endpoint endx="-1338" endy="43"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="Hyx0dq1x7iHU" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="16" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1293" starty="-65"/>
+           <endpoint endx="-1293" endy="44"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="KJhKMOTf3HoC" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="240" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1238" starty="-65"/>
+           <endpoint endx="-1152" endy="44"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="HnT8oQn5Nk30" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="192" totalcounta="14" totalcountb="2" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1238" starty="-65"/>
+           <endpoint endx="-1020" endy="43"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="64" widgetbid="bqnW4iOBtHiV" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="3" widgetaid="UCklDYidZWIv" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1238" starty="-65"/>
+           <endpoint endx="-879" endy="43"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="cvnapFmWF9e8" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-907" endy="374"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="7b99iZ04kMe6" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1319" starty="325"/>
+           <endpoint endx="-1615" endy="373"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="f0d9YwwU1zFH" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1318" starty="325"/>
+           <endpoint endx="-1318" endy="370"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="y52nI8Ms47Qr" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1319" starty="325"/>
+           <endpoint endx="-1471" endy="372"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="xOStmPpEyvUE" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-1073" endy="374"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="UY8GGmVASuM9" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-1219" endy="373"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="ZITbHiqMJ0Wz" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1310" starty="325"/>
+           <endpoint endx="-1310" endy="441"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="LIJDbU2EVdN1" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-1219" endy="439"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="tud0zMpoWXLn" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-1144" endy="433"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="MCNaMzgDuJDr" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-864" endy="441"/>
+           <point x="-1020.37037037037" y="386.1111111111111"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="0" widgetbid="eQoEhkRwk9gF" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1319" starty="325"/>
+           <endpoint endx="-1462" endy="442"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="13" usesdiagramfillcolor="1" widgetbid="uiRChk3fbJyD" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1319" starty="325"/>
+           <endpoint endx="-1619" endy="445"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="FzkmVoiEvNzw" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="0" totalcounta="14" totalcountb="2" widgetaid="pAkZJQmFpC8b" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1219" starty="325"/>
+           <endpoint endx="-998" endy="437"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="9Mkcz6bZO48d" indexb="5" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="ZITbHiqMJ0Wz" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1310" starty="469"/>
+           <endpoint endx="-1310" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="9Mkcz6bZO48d" indexb="3" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="LIJDbU2EVdN1" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1242" starty="467"/>
+           <endpoint endx="-1242" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="9Mkcz6bZO48d" indexb="4" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="tud0zMpoWXLn" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1144" starty="461"/>
+           <endpoint endx="-1222" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="9Mkcz6bZO48d" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="MCNaMzgDuJDr" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-864" starty="469"/>
+           <endpoint endx="-1222" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="9Mkcz6bZO48d" indexb="6" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="eQoEhkRwk9gF" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1462" starty="470"/>
+           <endpoint endx="-1322" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="9Mkcz6bZO48d" indexb="7" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="uiRChk3fbJyD" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1619" starty="473"/>
+           <endpoint endx="-1322" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="1" widgetbid="9Mkcz6bZO48d" indexb="2" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="8" widgetaid="FzkmVoiEvNzw" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-998" starty="465"/>
+           <endpoint endx="-1222" endy="524"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="pAkZJQmFpC8b" indexb="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="224" totalcounta="2" totalcountb="2" widgetaid="Ihc9yIejG3qz" roleAdoc="" visibilityA="0" visibilityB="0" usefillcolor="0" fillcolor="#000000" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath>
+           <startpoint startx="-1315" starty="276"/>
+           <endpoint endx="-1315" endy="315"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="1" showstereotype="1" name="数据库" font="Sans Serif,10,-1,5,50,0,0,0,0,0" canvasheight="31" canvaswidth="518" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="TvOfxvp6NNaz" documentation="" showscope="1" snapgrid="0" showatts="1" type="9">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="3Z1U0CMpao9q" uniqueid="9Mkcz6bZO48d" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model">
+     <listitem open="0" type="834" id="TvOfxvp6NNaz" label="数据库"/>
+    </listitem>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="809" id="3Z1U0CMpao9q" label="activity"/>
+     <listitem open="0" type="807" id="Uy77u1fGIs5y" label="class diagram"/>
+     <listitem open="1" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="TGDj7Ih1icu7"/>
+      <listitem open="1" type="829" id="SnW8QOEaUrv1"/>
+      <listitem open="1" type="829" id="xIvk16LV4Sdz"/>
+      <listitem open="1" type="829" id="uXWzx7yONB8U"/>
+      <listitem open="1" type="829" id="A6dNXjvS1oC0"/>
+      <listitem open="1" type="829" id="uSxsPYEXCQ6a"/>
+      <listitem open="1" type="829" id="9UYWegz4TTCt"/>
+      <listitem open="1" type="829" id="aqUZfgaZE4W9"/>
+      <listitem open="1" type="829" id="rQSLFNLpEpNr"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Java">
+    <codedocument package="-1" fileExt=".xml" id="ANTDOC" fileName="build" writeOutCode="false">
+     <textblocks>
+      <codeblockwithcomments tag="xmlDecl" text="&lt;?xml version=&quot;1.0&quot;?>">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <xmlelementblock tag="projectDecl" nodeName="project" canDelete="false">
+       <header>
+        <codecomment tag="" text="Java ANT build document"/>
+       </header>
+       <textblocks/>
+      </xmlelementblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+    </codedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="uSxsPYEXCQ6a" id="uSxsPYEXCQ6a" fileName="int" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="uSxsPYEXCQ6a" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Int&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Int ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="xIvk16LV4Sdz" id="xIvk16LV4Sdz" fileName="char" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="xIvk16LV4Sdz" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Char&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Char ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="TGDj7Ih1icu7" id="TGDj7Ih1icu7" fileName="boolean" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="TGDj7Ih1icu7" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Boolean&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Boolean ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="A6dNXjvS1oC0" id="A6dNXjvS1oC0" fileName="float" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="A6dNXjvS1oC0" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Float&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Float ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="uXWzx7yONB8U" id="uXWzx7yONB8U" fileName="double" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="uXWzx7yONB8U" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Double&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Double ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="SnW8QOEaUrv1" id="SnW8QOEaUrv1" fileName="byte" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="SnW8QOEaUrv1" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Byte&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Byte ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="aqUZfgaZE4W9" id="aqUZfgaZE4W9" fileName="short" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="aqUZfgaZE4W9" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Short&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Short ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="9UYWegz4TTCt" id="9UYWegz4TTCt" fileName="long" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="9UYWegz4TTCt" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class Long&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public Long ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+    <classifiercodedocument package="Datatypes" fileExt=".java" parent_class="rQSLFNLpEpNr" id="rQSLFNLpEpNr" fileName="String" writeOutCode="true">
+     <textblocks>
+      <codeblockwithcomments tag="packages" text="package Datatypes;&amp;#010;">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <codeblockwithcomments tag="imports" writeOutText="false">
+       <header>
+        <codecomment tag="" writeOutText="false"/>
+       </header>
+      </codeblockwithcomments>
+      <javaclassdeclarationblock tag="ClassDeclBlock" parent_id="rQSLFNLpEpNr" canDelete="false">
+       <header>
+        <javacodedocumentation tag="" text="Class String&amp;#010;"/>
+       </header>
+       <textblocks>
+        <hierarchicalcodeblock tag="fieldsDecl" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Fields"/>
+         </header>
+         <textblocks/>
+        </hierarchicalcodeblock>
+        <hierarchicalcodeblock tag="methodsBlock" indentLevel="1" canDelete="false">
+         <header>
+          <codecomment tag="" indentLevel="1" text="Methods"/>
+         </header>
+         <textblocks>
+          <hierarchicalcodeblock tag="constructorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Constructors"/>
+           </header>
+           <textblocks>
+            <codeblockwithcomments tag="emptyconstructor" writeOutText="false" indentLevel="1" text="public String ( ) { }">
+             <header>
+              <codecomment tag="" indentLevel="1" text="Empty Constructor"/>
+             </header>
+            </codeblockwithcomments>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="accessorMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Accessor Methods"/>
+           </header>
+           <textblocks>
+            <hierarchicalcodeblock tag="staticAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+            <hierarchicalcodeblock tag="regularAccessorMethods" indentLevel="1" canDelete="false">
+             <header>
+              <codecomment tag="" writeOutText="false" indentLevel="1"/>
+             </header>
+             <textblocks/>
+            </hierarchicalcodeblock>
+           </textblocks>
+          </hierarchicalcodeblock>
+          <hierarchicalcodeblock tag="operationMethods" indentLevel="1" canDelete="false">
+           <header>
+            <codecomment tag="" indentLevel="1" text="Operations"/>
+           </header>
+           <textblocks/>
+          </hierarchicalcodeblock>
+         </textblocks>
+        </hierarchicalcodeblock>
+       </textblocks>
+      </javaclassdeclarationblock>
+     </textblocks>
+     <header>
+      <codecomment tag=""/>
+     </header>
+     <classfields/>
+    </classifiercodedocument>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
